@@ -308,7 +308,7 @@ font-family: 'Roboto', sans-serif;
                 solutions.</p>
         </div>
         <div>
-            <p class="footer-social-media-header">Social media</p>
+            <p class="footer-header">Social media</p>
             <ul class="list footer-ul">
                 <li class="li-social-media">
                     <a href="" class="icon-social-media-footer">
@@ -340,6 +340,17 @@ font-family: 'Roboto', sans-serif;
                 </li>
             </ul>
         </div>
+        <div class="footer-form">
+            <label class="footer-header" for="newsletter-form">Subscribe</label>
+            <div class="newsletter">
+            <form id="newsletter-form">
+                <input class="newsletter-form" type="text" name="email" placeholder="E-mail" />
+            </form>
+            <button type="submit" class="button-newsletter">Subscribe<svg class="newsletter-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-send"></use>
+                </svg></button>
+            </div>
+        </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -349,7 +360,40 @@ font-family: 'Roboto', sans-serif;
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+        <p class="modal-card-title">Leave your contacts and we will call you back</p>
+        <form>
+            <label for="name">Name</label>
+            <div>
+                <span>
+                    <svg class="" width="24" height="24">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </span>
+                <input id="name" type="text" name="name" />
+            </div>
+            <label for="phone">Phone</label>
+            <div>
+                <span>
+                    <svg class="" width="24" height="24">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                </span>
+                <input id="phone" type="number" name="phone" />
+            </div>
+            <label for="email">Email</label>
+            <div>
+                <span>
+                    <svg class="" width="24" height="24">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                </span>
+                <input id="email" type="email" name="email" />
+            </div>
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" placeholder="Text input"></textarea>
+        </form>
         </div>
+
     </div>
 
     <script src="./js/modal.js"></script>
