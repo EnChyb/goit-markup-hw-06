@@ -687,6 +687,29 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     word-wrap: break-word;
 }
 
+.user-form{
+    position: relative;
+}
+
+.user-form-icon{
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    padding-left: 16px;
+
+}
+
+.user-form input{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    border: 1px rgba(46, 47, 66, 0.40) solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 38px;
+}
+
 .checkbox{
     display: flex;
     align-items: baseline;
