@@ -343,12 +343,14 @@ font-family: 'Roboto', sans-serif;
         <div class="footer-form">
             <label class="footer-header" for="newsletter-form">Subscribe</label>
             <div class="newsletter">
-            <form id="newsletter-form">
-                <input class="newsletter-form" type="text" name="email" placeholder="E-mail" />
-            </form>
-            <button type="submit" class="button-newsletter">Subscribe<svg class="newsletter-svg" width="24" height="24">
-                    <use href="./images/icons.svg#icon-send"></use>
-                </svg></button>
+                <form id="newsletter-form">
+                    <input class="newsletter-form" type="text" name="email" placeholder="E-mail" />
+                </form>
+                <button type="submit" class="button-newsletter">Subscribe
+                    <svg class="newsletter-svg" width="24" height="24">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
             </div>
         </div>
         </div>
@@ -391,17 +393,16 @@ font-family: 'Roboto', sans-serif;
             </div>
             <label for="comment">Comment</label>
             <textarea id="comment" name="comment" placeholder="Text input"></textarea>
-            <div>
-                <input id="privacy-policy-form" type="checkbox" name="privacy-policy-form" value="true">
+            <div class="checkbox">
+                <input class="hidden" id="privacy-policy-form" type="checkbox" name="privacy-policy-form" value="true">
                 <label for="privacy-policy-form">
-                    <span>
-                        <svg class="" width="" height="">
+                        <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-checkbox"></use>
                         </svg>
-                    </span>I accept the terms and conditions of the<a href="">Privacy Policy</a>
+                I accept the terms and conditions of the <a href="">Privacy Policy</a>
                 </label>
             </div>
-            <button type="submit" class="">Send</button>       
+            <button type="submit" class="button-modal">Send</button>       
         </form>
         </div>
 
