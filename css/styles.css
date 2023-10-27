@@ -717,7 +717,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-form-icon:active{
+.user-form-icon:focus{
     fill: var(--primary-brand);
 }
 .user-form-input{
@@ -734,7 +734,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-form-input:active{
+.user-form-input:focus{
     border-color: var(--primary-brand);
 }
 
@@ -758,7 +758,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.comment-textarea:active {
+.comment-textarea:focus {
     border-color: var(--primary-brand);
 }
 
@@ -784,11 +784,11 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 16px;
     border-radius: 2px;
     border: 1px rgba(46, 47, 66, 0.40) solid;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.checkbox-icon:checked {
+.checkbox-icon:checked .checkbox-span {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--light);
