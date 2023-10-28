@@ -344,7 +344,7 @@ font-family: 'Roboto', sans-serif;
             <p class="footer-header">Subscribe</p>
             <form class="newsletter">
                 <label class="newsletter-label">
-                    <input class="newsletter-form" type="email" name="email" placeholder="E-mail" />
+                    <input class="newsletter-form" type="email" name="email" placeholder="E-mail" required />
                 </label>
                 <button type="submit" class="button-newsletter">Subscribe
                     <svg class="newsletter-svg" width="24" height="24">
@@ -367,7 +367,7 @@ font-family: 'Roboto', sans-serif;
                 <div class="user-form">
                     <label class="user-label" for="user-name">Name</label>
                     <div class="user-form-div">
-                        <input class="user-form-input" id="user-name" type="text" name="user-name" />
+                        <input class="user-form-input" id="user-name" type="text" name="user-name" required/>
                         <svg class="user-form-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
@@ -376,7 +376,7 @@ font-family: 'Roboto', sans-serif;
                 <div class="user-form">
                     <label class="user-label" for="phone">Phone</label>
                     <div class="user-form-div">
-                        <input class="user-form-input" id="phone" type="number" name="phone" />
+                        <input class="user-form-input" id="phone" type="number" name="phone" required />
                         <svg class="user-form-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
@@ -385,7 +385,7 @@ font-family: 'Roboto', sans-serif;
                 <div class="user-form">
                     <label class="user-label" for="email">Email</label>
                     <div class="user-form-div">
-                        <input class="user-form-input" id="email" type="email" name="email" />
+                        <input class="user-form-input" id="email" type="email" name="email" required />
                         <svg class="user-form-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
@@ -396,7 +396,7 @@ font-family: 'Roboto', sans-serif;
                     <textarea class="comment-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
                 </div>
                 <div class="checkbox"> 
-                    <input class="checkbox-input visually-hidden" id="user-privacy" type="checkbox" name="user-privacy" value="true"> 
+                    <input class="checkbox-input visually-hidden" id="user-privacy" type="checkbox" name="user-privacy" value="true" required> 
                     <label class="checkbox-label" for="user-privacy"> 
                         <span class="checkbox-span"> 
                             <svg class="checkbox-icon" width="10" height="8">
